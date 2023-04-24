@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &945656911252362502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 945656911252362520}
+  - component: {fileID: 945656911252362503}
+  - component: {fileID: 6865654444528264786}
+  - component: {fileID: 200199875}
+  m_Layer: 0
+  m_Name: game_manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &945656911252362520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945656911252362502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.791323, y: 1.4521878, z: 204.46527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &945656911252362503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945656911252362502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee4836a84e0a3349b7b6116a4457053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  game_time: 0
+  panel: {fileID: 8272898675193706550, guid: 9404bebe6461f9d4ea3742e4c2cab0b2, type: 3}
+  manager: {fileID: 945656911252362502}
+  souls: 0
+  faster: 0
+  cur_hum: 0
+  cur_hum_num: 0
+  frenzy_blue: 0
+  frenzy_purple: 0
+  satan_is_stronger_than_god: 0
+  frenzy_b_price: 100
+  frenzy_p_price: 300
+  die_faster_price: 300
+  satan_almighty_price: 2500
+  killing_god_price: 10000
+  visit_store: 1
+--- !u!114 &6865654444528264786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945656911252362502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd16c683c3a89c4ab6cf36a4bf90a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: vanish
+    clip: {fileID: 8300000, guid: 5f64ac499de80894085d652c021c9141, type: 3}
+    volume: 1
+    pitch: 1.52
+    source: {fileID: 0}
+  - name: menu
+    clip: {fileID: 8300000, guid: 6a52b4594b855dc44b1a9702116f852b, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: funky
+    clip: {fileID: 8300000, guid: 3195c67731419764eb8c8ec060622b76, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: escape
+    clip: {fileID: 8300000, guid: 05ce4582d4dd7304ab0a213bd830df3e, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: dark
+    clip: {fileID: 8300000, guid: 0b6aa05475849fd4a825cb276af191e3, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+--- !u!114 &200199875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945656911252362502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2015a45d0c6cfe418169ffa9fe1ab59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
